@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "pixeloperator"; 
+    src: url("font/PixelOperator.ttf") format("truetype");}
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+   background-color: rgb(32, 121, 109);
+   font-size: 19px;
+   margin: auto;
+  font-family: "pixeloperator";
+}
+#homebox1 {
+    padding: 10px;
+    border:10px double rgb(27, 120, 86);
+    margin: auto; 
+    text-indent: 10px;
+    margin-top: 30px;
+    background-color: rgb(72, 136, 86);
+    text-align: center;
+   width: 100%;}

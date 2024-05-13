@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "pixeloperator"; 
+    src: url("font/PixelOperator.ttf") format("truetype");}
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+   background-color: rgb(42, 124, 113,) ;
+   font-size: 19px;
+   margin: auto;
+   text-align: center;
+  font-family: "pixeloperator";}
+  h1 {color: rgb(0, 0, 0);
+  text-align: center;}
+a:link {
+color: darkgoldenrod;
+}
