@@ -30,10 +30,12 @@ body {
 
 #header {
     width: 100%;
-    background-color: #2d6969;
-    height: 10px;
+    background-color: #588bf0;
+    height: 100px;
     background-image: var(--header-image);
     background-size: 100%;
+    height: fit-content;
+    text-align: center;
 }
 
 #navbar {
@@ -73,9 +75,11 @@ aside {
     width: 200px;
     padding: 20px;
     font-size: smaller;
+    height: fit-content;
 }
 
 main {
+    outline: dashed;
     background-color: #25306e;
     flex: 1;
     padding: 20px;
@@ -86,11 +90,16 @@ main {
     order: 3;
 }
 footer {
+    outline: dashed;
     background-color: #232f6d;
     width: 100%;
     height: 70px;
     padding: 10px;
     text-align: center;
+    height: fit-content;
+}
+footer a {
+    color: #5bb6b5;
 }
 h3 {
     color: #469881;
