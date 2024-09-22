@@ -111,6 +111,12 @@ strong {
     font-size: smaller;
     background-color: #2a9a8b;
 }
+#linkcontainer {
+    background-color: #0b3630;
+    width: fit-content;
+    text-align: center;
+
+}
 
 @media only screen and (max-width: 800px) {
     #flex {
@@ -135,4 +141,5 @@ strong {
     #navbar ul {
         flex-wrap: wrap;
     }
+
 }
