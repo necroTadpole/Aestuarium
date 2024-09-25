@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(87, 140, 148);
+    background-color: rgb(87, 148, 117);
 }
 img {
     position: absolute;
@@ -10,6 +10,15 @@ img {
     width: 300px;
   }
 #textbox {
-    background: #336366; ;
+    background: #336658; ;
     position: static;
+}
+@font-face {
+    font-family: Ambistek;
+    src: url('https://file.garden/ZWP7HV4ycxnRjvC3/Pictures%20n%20shit/Fonts/ambitsek.ttf');
+}
+
+body {
+    font-family: 'Ambistek', sans-serif;
+    
 }

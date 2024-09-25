@@ -1,6 +1,6 @@
 :root {
     --header-image: url();
-    --body-bg-image: url('https://files.catbox.moe/rwwc6v.png');
+    --body-bg-image: url('');
     --content: #1e2b67;
 }
 
@@ -143,5 +143,8 @@ strong {
 
     #navbar ul {
         flex-wrap: wrap;
+    }
+    #navbar {
+        font-size: x-small;
     }
 }
