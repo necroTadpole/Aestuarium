@@ -17,7 +17,11 @@ body {
     color: #aad7ec;
     background-image: var(--body-bg-image);
 }
-
+#catgif2 {
+    position: absolute;
+    left: 500px;
+    top: 350px;
+}
 * {
     box-sizing: border-box;
 }
@@ -147,5 +151,9 @@ strong {
     }
     #navbar {
         font-size: x-small;
+    }
+    #unfriendly {
+        display: block !important;
+        display: none !important;
     }
 }
