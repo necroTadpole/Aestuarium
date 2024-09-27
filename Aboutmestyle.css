@@ -1,0 +1,95 @@
+:root {
+    --header-image: url();
+    --body-bg-image: url(https://file.garden/ZWP7HV4ycxnRjvC3/Pictures%20n%20shit/Pictures/padbg.png);
+    --content: #b5be9c68;
+}
+
+@font-face {
+    font-family: Ambistek;
+    src: url('https://file.garden/ZWP7HV4ycxnRjvC3/Pictures%20n%20shit/Fonts/ambitsek.ttf');
+}
+
+body {
+    font-family: 'Ambistek', sans-serif;
+    margin: 0;
+    background-color: #08031A;
+    background-size: 65px;
+    color: #1c2529;
+    background-image: var(--body-bg-image);
+}
+
+#navbar {
+    height: 40px;
+    background-color: #899a71;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+#navbar li a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+#navbar li a:hover {
+    color: #3e86ba;
+    text-decoration: underline;
+}
+
+#container {
+    background-color: #94a187;
+    text-align: center;
+    opacity: 90%;
+    position: sticky;
+    font-size: small;
+
+}
+#topBar {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: smaller;
+    background-color: #203b37;
+}
+
+@media only screen and (max-width: 800px) {
+    #flex {
+        flex-wrap: wrap;
+    }
+
+    aside {
+        width: 100%;
+    }
+    main {
+        order: 1;
+    }
+
+    #leftSidebar {
+        order: 2;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    #navbar ul {
+        flex-wrap: wrap;
+    }
+    #navbar {
+        font-size: x-small;
+    }
+    #unfriendly {
+    display: block !important;
+    display: none !important;
+    }
+}
