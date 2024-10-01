@@ -20,7 +20,7 @@ body {
 #catgif2 {
     position: absolute;
     left: 500px;
-    top: 350px;
+    top: 720px;
 }
 * {
     box-sizing: border-box;
@@ -86,9 +86,20 @@ aside {
 main {
     outline: dashed;
     background-color: #589e96;
-    flex: 1;
+    width: auto;
     padding: 20px;
+    flex: 1;
     order: 2;
+}
+#Updates {
+    outline: dashed;
+    background-color: #50807a;
+    padding: 20px;
+    order: 4;
+    overflow: scroll;
+    height: 500px;
+    flex: 1;
+    margin-bottom: 10px;
 }
 
 #rightSidebar {
@@ -141,9 +152,11 @@ strong {
     #leftSidebar {
         order: 2;
     }
-
-    #rightSidebar {
+    #Updates {
         order: 3;
+    }
+    #rightSidebar {
+        order: 4;
     }
 
     #navbar ul {
