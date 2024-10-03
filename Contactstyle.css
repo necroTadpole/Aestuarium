@@ -1,7 +1,7 @@
 :root {
     --header-image: url();
-    --body-bg-image: url('https://files.catbox.moe/rwwc6v.png');
-    --content: #1e2b67;
+    --body-bg-image: url(https://file.garden/ZWP7HV4ycxnRjvC3/Pictures%20n%20shit/bg10.JPG);
+    --content: #b5be9c68;
 }
 
 @font-face {
@@ -13,32 +13,14 @@ body {
     font-family: 'Ambistek', sans-serif;
     margin: 0;
     background-color: #08031A;
-    background-size: 65px;
-    color: #aad7ec;
+    background-size: 350px;
+    color: #1c2529;
     background-image: var(--body-bg-image);
-}
-
-* {
-    box-sizing: border-box;
-}
-
-#container {
-    max-width: 900px;
-    margin: 0 auto;
-
-}
-
-#header {
-    width: 100%;
-    background-color: #2d6969;
-    height: 10px;
-    background-image: var(--header-image);
-    background-size: 100%;
 }
 
 #navbar {
     height: 40px;
-    background-color: #5678f4;
+    background-color: #54515f;
     width: 100%;
 }
 
@@ -60,56 +42,31 @@ body {
     text-decoration: none;
 }
 #navbar li a:hover {
-    color: #203e53;
+    color: #498ec0;
     text-decoration: underline;
 }
 
-#flex {
-    display: flex;
-}
-
-aside {
-    background-color: #1f6160;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller;
-}
-
-main {
-    background-color: #25306e;
-    flex: 1;
-    padding: 20px;
-    order: 2;
-}
-
-#rightSidebar {
-    order: 3;
-}
-footer {
-    background-color: #232f6d;
-    width: 100%;
-    height: 70px;
-    padding: 10px;
+#container {
+    background-color: #758467;
     text-align: center;
-}
-h3 {
-    color: #469881;
-}
+    opacity: 90%;
+    position: sticky;
+    font-size: small;
 
-h1 {
-    font-size: 25px;
 }
-
-strong {
-    color: #4b689b;
-}
-
 #topBar {
     width: 100%;
     height: 40px;
     padding: 10px;
     font-size: smaller;
-    background-color: #2a9a8b;
+    background-color: #4db8a8;
+}
+main {
+    background-color: #7c86a0;
+    opacity: 90%;
+}
+h2 {
+    text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -134,5 +91,12 @@ strong {
 
     #navbar ul {
         flex-wrap: wrap;
+    }
+    #navbar {
+        font-size: x-small;
+    }
+    #unfriendly {
+    display: block !important;
+    display: none !important;
     }
 }

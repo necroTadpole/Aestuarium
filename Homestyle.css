@@ -17,6 +17,17 @@ body {
     color: #aad7ec;
     background-image: var(--body-bg-image);
 }
+#statuscafe {
+    padding: .5em;
+    background-color: rgb(78, 149, 149);
+    border: 1px solid rgb(247, 247, 247);
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
 #catgif2 {
     position: absolute;
     left: 500px;
@@ -165,7 +176,7 @@ strong {
     #navbar {
         font-size: x-small;
     }
-    #unfriendly {
+    .unfriendly {
         display: block !important;
         display: none !important;
     }
