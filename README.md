@@ -1,1 +1,1 @@
-This is a silly little project piece for Tadd by Tadd. A personal journal of my likes and interests while also providing an engaging and interactive little experience. Originally hosted on neocities, I decided I wasn't a fan of the way it was set up, so instead I am on github now. I am slowly redoing all of the code and transforming it into something more accessible for more people :)
+Tadpole's pond :3
