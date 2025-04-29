@@ -181,3 +181,22 @@ strong {
         display: none !important;
     }
 }
+  /* Volume display */
+  #volume-display {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Play button */
+  #play {
+    background-color: #4CAF50; /* Match the slider thumb */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #play:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
