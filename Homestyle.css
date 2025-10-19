@@ -1,7 +1,5 @@
 :root {
-    --header-image: url();
-    --body-bg-image: url(https://file.garden/ZWP7HV4ycxnRjvC3/Pictures%20n%20shit/gifs!/watergif1.gif);
-    --content: #5ead9a;
+ background-color: #000000;
 }
 
 @font-face {
@@ -14,12 +12,12 @@ body {
     margin: 0;
     background-color: #08031A;
     background-size: 65px;
-    color: #aad7ec;
+    color: #000000;
     background-image: var(--body-bg-image);
 }
 #statuscafe {
     padding: .5em;
-    background-color: rgb(78, 149, 149);
+    background-color: rgb(201, 201, 201);
     border: 1px solid rgb(247, 247, 247);
 }
 #statuscafe-username {
@@ -43,9 +41,9 @@ body {
 
 }
 #header {
-    opacity: 80%;
+    opacity: 100%;
     width: 100%;
-    background-color: #3b7674;
+    background-color: #fc00008b;
     height: 100px;
     background-image: var(--header-image);
     background-size: 100%;
@@ -56,7 +54,7 @@ body {
 
 #navbar {
     height: 40px;
-    background-color: #73c3a6;
+    background-color: #5d6160;
     width: 100%;
 }
 
@@ -73,12 +71,12 @@ body {
 }
 
 #navbar li a {
-    color: #000000;
+    color: #520000;
     font-weight: 800;
     text-decoration: none;
 }
 #navbar li a:hover {
-    color: #3e86ba;
+    color: #8b8b8b;
     text-decoration: underline;
 }
 
@@ -87,7 +85,7 @@ body {
 }
 
 aside {
-    background-color: #258b89;
+    background-color: #373737;
     width: 200px;
     padding: 20px;
     font-size: smaller;
@@ -96,7 +94,7 @@ aside {
 
 main {
     outline: dashed;
-    background-color: #589e96;
+    background-color: #808c8b;
     width: auto;
     padding: 20px;
     flex: 1;
@@ -104,7 +102,7 @@ main {
 }
 #Updates {
     outline: dashed;
-    background-color: #50807a;
+    background-color: #343636;
     padding: 20px;
     order: 4;
     overflow: scroll;
@@ -118,7 +116,7 @@ main {
 }
 footer {
     outline: dashed;
-    background-color: #236d5f;
+    background-color: #434746;
     width: 100%;
     height: 70px;
     padding: 10px;
@@ -126,10 +124,10 @@ footer {
     height: fit-content;
 }
 footer a {
-    color: #5bb6b5;
+    color: #94a0a0;
 }
 h3 {
-    color: #469881;
+    color: #586360;
 }
 
 h1 {
@@ -137,7 +135,7 @@ h1 {
 }
 
 strong {
-    color: #4b689b;
+    color: #8d8d8d;
 }
 
 #topBar {
@@ -180,23 +178,3 @@ strong {
         display: block !important;
         display: none !important;
     }
-}
-  /* Volume display */
-  #volume-display {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  /* Play button */
-  #play {
-    background-color: #4CAF50; /* Match the slider thumb */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  #play:hover {
-    background-color: #3e8e41; /* Darker green on hover */
-  }
