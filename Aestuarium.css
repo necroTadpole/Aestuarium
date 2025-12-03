@@ -9,3 +9,6 @@ a:link {
 a:hover {
   color: rgb(255, 0, 0);
 }
+a:visited {
+    color: rgb(193, 174, 125);
+}
