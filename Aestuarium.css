@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(26, 25, 23);
+    color: rgb(162, 187, 255);
+}
+a:link {
+    color: rgb(255, 124, 43);
+    text-decoration: none
+}
+a:hover {
+  color: rgb(255, 0, 0);
+}
